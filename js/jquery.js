@@ -119,8 +119,8 @@ $(document).ready(function () {
       var i = $(this).attr("data-num");
 
       $(".section_16 h5").slideUp();
-      $(this).find("h5").stop().slideToggle(500);
-      // $(".section_16 .tab").eq(i).find("h5").stop().slideDown();
+      // $(this).find("h5").stop().slideToggle(500);
+      $(".section_16 .tab").eq(i).find("h5").stop().slideDown();
       // stop()은 중복되서 이벤트 안들어가게 해줌
       // slidetoggle로 클릭할때마다 접었다폈다 가능 + 동시에 다른 애들은 쏙 들어가게
 
